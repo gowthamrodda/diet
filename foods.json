@@ -1,0 +1,25 @@
+{
+    "india" : [
+        {
+            "name" : "foxtailmillet",
+            "quantity" : 100,
+            "type" : "veg",
+            "calories" : 351,
+            "carbs" : 63.2,
+            "protein" : 11.2,
+            "fat" : 4
+        },
+        {
+            "name" : "littlemillet",
+            "quantity" : 100,
+            "type" : "veg",
+            "calories" : 341,
+            "carbs" : 67,
+            "protein" : 7.7,
+            "fat" : 4.7
+        }
+    ],
+    "usa" : [
+
+    ]
+}
