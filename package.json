@@ -1,0 +1,15 @@
+{
+  "name": "diet",
+  "version": "1.0.0",
+  "description": "library to calculate bmr, bmi and diet chart",
+  "type": "module",
+  "main": "./index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "diet"
+  ],
+  "author": "Gowtham Kumar Rodda",
+  "license": "ISC"
+}
