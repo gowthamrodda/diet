@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "library to calculate bmr, bmi and diet chart",
   "type": "module",
-  "main": "./index.js",
+  "main": "./diet.js",
   "scripts": {
     "test": "test"
   },
