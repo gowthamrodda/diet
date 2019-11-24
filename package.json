@@ -11,5 +11,8 @@
     "diet"
   ],
   "author": "Gowtham Kumar Rodda",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": ">=4.2.4"
+  }
 }
