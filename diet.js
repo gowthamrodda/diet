@@ -9,14 +9,14 @@ const idleMan = {
     age: 25,
     height: 177,
     weight: 65
-}
+};
 
 const idleWoman = {
     gender : 'female',
     age: 25,
     height: 171,
     weight: 50
-}
+};
 
 let bmr = (person) => {
     let newPerson = person || idleMan;
@@ -30,16 +30,16 @@ let bmr = (person) => {
         }
 
         return bmr;
-}
+};
 
 let bmi = (person) => {
 
     let newPerson = person || idleMan;
-    return (person.weight)/((person.height/100) * (person.height/100)); 
+    return (newPerson.weight) / ((newPerson.height / 100) * (newPerson.height / 100));
 
-}
+};
 
 module.exports = {
     bmr : bmr,
     bmi : bmi
-}
+};
