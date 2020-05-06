@@ -1,5 +1,5 @@
 {
-    "india" : [
+    "indian" : [
         {
             "name" : "foxtailmillet",
             "quantity" : 100,
@@ -19,7 +19,10 @@
             "fat" : 4.7
         }
     ],
-    "usa" : [
+    "northamerican" : [
 
-    ]
+    ],
+    "chinese": [],
+    "italian": [],
+    "meditarrean": []
 }

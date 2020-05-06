@@ -1,3 +1,4 @@
+import foods from './foods.json';
 /**
  * Method to calculate BMR of a person
  * Weight should be in kilograms
@@ -39,7 +40,42 @@ let bmi = (person) => {
 
 };
 
-module.exports = {
-    bmr : bmr,
-    bmi : bmi
-};
+let chart = (bmr, dietType, cuisine) => {
+    const total = bmr || 1200;
+    const dietType = dietType || 'zone';
+    cuisine = cuisine || 'Indian';
+    const zoneDietRatio = {
+        carbs: 40,
+        fats: 30,
+        proteins: 30
+    };
+    const ketoDietRatio = {
+        carbs: 10,
+        fats: 65,
+        proteins: 25
+    };
+    const carbohydrates = [];
+    const fat = [];
+    const protein = [];
+    if (dietType === 'zone') {
+        const ratio = zoneDietRatio;
+        if (cuisine === 'Indian') {
+            const carbsCals = (bmr/ratio.carbs)*(100);
+            const fatCals = (bmr/ratio.fats)*(100);
+            const proteinCals = (bmr/ratio.proteins)*(100);
+
+            carbohydrates.push();
+        }
+
+        
+
+    }
+    return {
+        carbohydrates: carbohydrates,
+        fat : fat,
+        protein: protein
+    }
+}
+
+export const bmr = bmr;
+export const bmi = bmi;
