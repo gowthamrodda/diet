@@ -19,6 +19,15 @@ const idleWoman = {
     weight: 50
 };
 
+const cuisineTypes = [
+    'SouthIndian',
+    'NorthIndian',
+    'NorthAmerican',
+    'Chinese',
+    'Italian',
+    'Meditarrien'
+];
+
 let bmr = (person) => {
     let newPerson = person || idleMan;
     let bmr = 0;
@@ -40,7 +49,8 @@ let bmi = (person) => {
 
 };
 
-let chart = (bmr, dietType, cuisine) => {
+// If no inputs are provided, default values are assumed and produces a standard diet
+let chart = (bmr, dietType, cuisine, favourites) => {
     const total = bmr || 1200;
     const dietType = dietType || 'zone';
     cuisine = cuisine || 'Indian';
@@ -66,15 +76,28 @@ let chart = (bmr, dietType, cuisine) => {
 
             carbohydrates.push();
         }
-
-        
-
     }
     return {
         carbohydrates: carbohydrates,
         fat : fat,
         protein: protein
     }
+}
+
+const keto = () => {
+
+}
+
+const standard = () => {
+
+}
+
+const highCarb = () => {
+
+}
+
+const lowCarb = () => {
+    
 }
 
 export const bmr = bmr;
