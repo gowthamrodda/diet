@@ -1,5 +1,4 @@
 {
-    "indian" : [
         {
             "name" : "foxtailmillet",
             "quantity" : 100,
@@ -7,7 +6,8 @@
             "calories" : 351,
             "carbs" : 63.2,
             "protein" : 11.2,
-            "fat" : 4
+            "fat" : 4,
+            "cuisine": "indian"
         },
         {
             "name" : "littlemillet",
@@ -16,13 +16,7 @@
             "calories" : 341,
             "carbs" : 67,
             "protein" : 7.7,
-            "fat" : 4.7
+            "fat" : 4.7,
+            "cuisine": "indian"
         }
-    ],
-    "northamerican" : [
-
-    ],
-    "chinese": [],
-    "italian": [],
-    "meditarrean": []
 }

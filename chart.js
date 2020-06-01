@@ -12,6 +12,12 @@ export class Chart {
   // this calculates ratio, no of meals,
   createStructure() {
     const ratio = {};
+    switch (this.dietType) {
+      case "standard":
+        ratio = {
+          carbs: 40,
+        };
+    }
   }
 
   getMeals(structure) {}
